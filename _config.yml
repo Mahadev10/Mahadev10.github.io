@@ -3,11 +3,11 @@ baseurl: ""
 url: "https://Mahadev10.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Maha[Dev]                                  # site's title
+title: "Maha[Dev]"                                  # site's title
 description: "👋Hello, my name is Mahadev Reddy and I am a self-taught programmer. This site is host to a variety of things professional and personal; you can learn more about who I am or read my articles related to programming."      # used by search engines
 avatar: assets/img/programmer.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
-
+author: "Kasireddy Mahadev Reddy"
 # Header and footer text
 header_text: <code>Learn</code> and <code>Code</code>  # Change Blog header text
 header_feature_image: assets/img/pexels/computer.jpeg
@@ -25,7 +25,7 @@ defaults:
     values:
       permalink: /:title.html
       layout: "post"
-      author: "Mahadev"  
+      author: "Mahadev Reddy"  
       comments: true
 # Features
 # More in the _data folder for share buttons, author and language
