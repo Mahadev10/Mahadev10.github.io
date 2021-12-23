@@ -20,6 +20,8 @@ gitlab:
 google-scholar:
   pre: "https://scholar.google.com/citations?hl=en&user="
   icon: "fas fa-user-graduate"
+hackerrank:
+  pre: "https://www.hackerrank.com/"  
 instagram:
   pre: "https://instagram.com/"
 hacker-news:
