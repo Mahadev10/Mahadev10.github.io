@@ -11,7 +11,7 @@ author: "Kasireddy Mahadev Reddy"
 # Header and footer text
 header_text: <code>Learn</code> and <code>Code</code>  # Change Blog header text
 header_feature_image: assets/img/pexels/computer.jpeg
-footer_text: "Mahadev Reddy©️ 2021"
+footer_text: "Mahadev Reddy©️ 2022"
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
 post_navigation: true
