@@ -25,7 +25,7 @@ reddit:
 soundcloud:
 sms:              # e.g. "+11111111111"
 stack-exchange:   # e.g. "123456789"
-stack-overflow:   # e.g. "123456789"
+stack-overflow:   19175851
 steam:
 telegram:
 tumblr:
@@ -34,5 +34,5 @@ twitter:
 vimeo:
 vk:
 wordpress:
-whatsapp: "+919390312102&text=Welcome To My Whatsapp"
+whatsapp: "+919390312102&text=Hi"
 youtube:          # e.g. "UCqECaJ8Gagnn7YCbPEzWH6g"

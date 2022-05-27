@@ -1,15 +1,10 @@
-<!-- Portfolio Grid Section -->
-<div class="portfolio-grid">
-    {% for item in site.portfolio %}
-    <div class="portfolio-cell">
-        <a class="portfolio-link" data-keyboard="true" href="{{ item.url | relative_url }}">
-            <div class="caption" title="{{ item.title }}">
-                <div class="caption-content">
-                    <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-            </div>
-            <img alt="" class="" src="{{ item.img | relative_url }}">
-        </a>
+<main class="container">
+    <section class="project-1 my-2">
+        <div class="row">
+        {% assign frontend= site.portfolio | where: "type", "web" %}
+        {% assign reactjs= site.portfolio | where: "type", "react" %}
+        {% include project_card.html section_title="Frontend Pojects" projects=frontend %}
+        {% include project_card.html section_title="Reactjs Pojects" projects=reactjs %}
     </div>
-    {% endfor %}
-</div>
+  </section>
+</main>

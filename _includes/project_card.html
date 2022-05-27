@@ -1,0 +1,29 @@
+
+<div class="col-12">
+    <h2 class="mb-4 font-weight-bold"><span style="background: linear-gradient(#ffffff 60%, #dddddd 30%);">{{include.section_title}}</span></h2>
+</div>
+{% for project in include.projects %}
+<div class="col-12">
+    <div class="card mb-3" style="max-width: 100%;">
+        <div class="row g-0">
+            <div class="col-md-4 d-flex align-items-center p-4">
+                <img src="{{ project.img }}" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2 class="card-title">{{ project.title }}</h2>
+                    <p class="card-text">{{ project.description }}</p>
+                    <p class="font-weight-normal text-primary">Tech Stack: {% for name in project.tech_stack %}{{project.icons[name]}}{% endfor %}</p>
+                    <a href="{{ project.demo_link}}" target="_blank" {% if project.demo_link == '#' %} class="disabled" style="pointer-events: none;cursor: default;" {% endif %}>
+                        <button type="button"
+                            class="btn btn-{% if project.demo_link == '#' %}disabled disabled{% else %}light{% endif %} border border-secondary border-2">LIVE
+                            DEMO</button></a>
+                    <a href="{{ project.code_link }}" target="_blank">
+                        <button type="button" class="btn btn-dark ml-2">SOURCE CODE</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
