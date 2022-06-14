@@ -8,5 +8,6 @@ code_link: https://github.com/Mahadev10/ocean-of-games
 tech_stack: 
     - "js"
     - "react"
+    - "redux"
     - "sc"
 ---

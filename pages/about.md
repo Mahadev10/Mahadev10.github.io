@@ -7,7 +7,7 @@ devicons: true
 order: 1
 font_awesome: true
 ---
-{% include aligner.html images="mahadev.png" %}
+{% include aligner.html images="mahadev.jpg" %} 
 
 <p style="text-align:center;">Full Stack Web Developer</p>
 👋Hello, my name is **`Mahadev Reddy`** and I am a **`self-taught programmer`** .I am an 👨‍🎓undergraduate studying `B.Tech  in Electronics and Communications Engineering`. Even though I am a ECE student, My passion for  👨‍💻 computers have led me to expand my knowledge in `computer science` because I find it fascinating. From a young age, I was totally attracted by computer games which later develop into an interest for programming. I spend lots of time on the computer researching new developments in the IT industry and reading articles related to programming. I am very `enthusiastic` and `😎confident` with regards to anything involving computer systems, and I feel that this will play a major part in helping me expand my knowledge in this field, gaining exposure to new areas of computer science that I have not yet studied. I have been coding for a while, and I learned and accomplished a lot.
