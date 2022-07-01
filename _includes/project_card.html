@@ -18,8 +18,8 @@
                         <button type="button"
                             class="btn btn-{% if project.demo_link == '#' %}disabled disabled{% else %}light{% endif %} border border-secondary border-2">LIVE
                             DEMO</button></a>
-                    <a href="{{ project.code_link }}" target="_blank">
-                        <button type="button" class="btn btn-dark ml-2">SOURCE CODE</button>
+                    <a href="{{ project.code_link }}" target="_blank" {% if project.code_link == '#' %} class="disabled" style="pointer-events: none;cursor: default;" {% endif %}>
+                        <button type="button" class="btn btn-btn-{% if project.code_link == '#' %}disabled disabled{% else %}dark{% endif %} ml-2  border-secondary border-2">SOURCE CODE</button>
                     </a>
                 </div>
             </div>
