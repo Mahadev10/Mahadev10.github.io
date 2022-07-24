@@ -41,7 +41,7 @@ defaults:
          redux: <i class="devicon-redux-original colored" style="font-size:30px;margin-right:5px;"></i>
          saas: <i class="devicon-sass-original colored" style="font-size:30px;margin-right:5px;"></i>
          sc: <img style="padding:0;margin-right:5px;vertical-align:baseline" src="https://camo.githubusercontent.com/5e6b5d9da90f61f872931b769d9bf65254c2fcfda569a972b9be45b4a921f8a3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374796c652d2546302539462539322538352532307374796c65642d2d636f6d706f6e656e74732d6f72616e67652e7376673f636f6c6f72423d64616133353726636f6c6f72413d646237343865" />
-         tailwind: <i class="devicon-tailwindcss-original-wordmark colored" style="font-size:30px;margin-right:5px;"></i>
+         tailwind: <i class="devicon-tailwindcss-plain colored" style="font-size:30px;margin-right:5px;"></i>
          python: <i class="devicon-python-plain-wordmark colored" style="color:blue;font-size:30px;margin-right:5px;"></i>
          django: <i class="devicon-django-plain-wordmark colored" style="font-size:30px;margin-right:5px;"></i>
 
@@ -52,7 +52,7 @@ katex: true                                             # Enable if using math m
 mermaid: true                                           # Enable mermaid-js for sequence and diagrams
 google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
 cookie_consent: false                                   # To respect the usage of cookies
-color_theme: auto                                       # auto, dark or light
+color_theme: dark                                       # auto, dark or light
 
 # Comments
 comments:

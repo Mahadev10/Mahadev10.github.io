@@ -1,6 +1,6 @@
 
 <div class="col-12">
-    <h2 class="mb-4 font-weight-bold"><span style="background: linear-gradient(#ffffff 60%, #dddddd 30%);">{{include.section_title}}</span></h2>
+    <h2 class="mb-4 font-weight-bold text-dark"><span style="background: linear-gradient(#ffffff 60%, #dddddd 30%);">{{include.section_title}}</span></h2>
 </div>
 {% for project in include.projects %}
 <div class="col-12">
@@ -11,8 +11,8 @@
             </div>
             <div class="col-md-8">
                 <div class="card-body">
-                    <h2 class="card-title">{{ project.title }}</h2>
-                    <p class="card-text">{{ project.description }}</p>
+                    <h2 class="card-title text-dark">{{ project.title }}</h2>
+                    <p class="card-text text-dark">{{ project.description }}</p>
                     <p class="font-weight-normal text-primary">Tech Stack: {% for name in project.tech_stack %}{{project.icons[name]}}{% endfor %}</p>
                     <a href="{{ project.demo_link}}" target="_blank" {% if project.demo_link == '#' %} class="disabled" style="pointer-events: none;cursor: default;" {% endif %}>
                         <button type="button"
