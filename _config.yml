@@ -25,7 +25,7 @@ defaults:
     values:
       permalink: /:title.html
       layout: "post"
-      author: "Mahadev Reddy"  
+      author: "Mahadev"  
       comments: true
   -
     scope:

@@ -4,9 +4,9 @@
         {% assign frontend= site.portfolio | where: "type", "web" %}
         {% assign reactjs= site.portfolio | where: "type", "react" %}
         {% assign django= site.portfolio | where: "type", "django" %}
-        {% include project_card.html section_title="Frontend Pojects" projects=frontend %}
-        {% include project_card.html section_title="Reactjs Pojects" projects=reactjs %}
-        {% include project_card.html section_title="Django Pojects" projects=django %}
+        {% include project_card.html section_title="Frontend Projects" projects=frontend %}
+        {% include project_card.html section_title="Reactjs Projects" projects=reactjs %}
+        {% include project_card.html section_title="Django Projects" projects=django %}
     </div>
   </section>
 </main>
