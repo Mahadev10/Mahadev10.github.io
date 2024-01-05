@@ -1,5 +1,5 @@
 ---
-type: "web"
+type: "frontend"
 title: "Html, Css and Js projects"
 description: ""
 img: https://miro.medium.com/max/1400/1*l4xICbIIYlz1OTymWCoUTw.jpeg

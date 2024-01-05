@@ -1,12 +1,10 @@
 <main class="container">
     <section class="project-1 my-2">
         <div class="row">
-        {% assign frontend= site.portfolio | where: "type", "web" %}
-        {% assign reactjs= site.portfolio | where: "type", "react" %}
-        {% assign django= site.portfolio | where: "type", "django" %}
+        {% assign frontend= site.portfolio | where: "type", "frontend" %}
+        {% assign backend= site.portfolio | where: "type", "backend" %}
+        {% include project_card.html section_title="Backend Projects" projects=backend %}
         {% include project_card.html section_title="Frontend Projects" projects=frontend %}
-        {% include project_card.html section_title="Reactjs Projects" projects=reactjs %}
-        {% include project_card.html section_title="Django Projects" projects=django %}
     </div>
   </section>
 </main>

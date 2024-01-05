@@ -1,5 +1,5 @@
 ---
-type: "react"
+type: "frontend"
 title: "ocean of games"
 description: "Ocean of games is a video game info site.Here, you can find news about latest video games ,upcoming video games and new video games.You, can also search and find in-depth info about your favourite game."
 img: /assets/img/portfolio/joystick.svg
@@ -9,5 +9,4 @@ tech_stack:
     - "js"
     - "react"
     - "redux"
-    - "sc"
 ---
